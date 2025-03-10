@@ -110,4 +110,18 @@ p {
     border-radius: 10px;
     border: 3.1px solid #000;
 }
+.loading {
+    font-size: 2.5rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.FiLoader {
+    animation: load 0.9s ease-in infinite;
+}
+@keyframes load {
+    from { rotate: 0}
+    to { rotate: 360deg}
+}
 
